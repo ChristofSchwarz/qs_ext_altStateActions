@@ -1,4 +1,4 @@
-# QSExtensions_altStateActions
+# Alternate State Actions
 
 This extension gets the user two buttons which he/she will need to 
 work with Alternate States in Qlik Sen
