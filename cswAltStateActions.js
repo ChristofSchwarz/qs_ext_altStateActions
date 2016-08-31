@@ -32,8 +32,8 @@ define(["jquery", "qlik", "text!./style.css"], function ($, qlik, cssContent) {
                             component : "dropdown",
                             defaultValue : "$",		
                             options: function() {
-                                return qlik.currApp(this).getAppLayout().then(function (layout){
-                                    return layout.qStateNames.map(function (state){
+                                return qlik.currApp(this).getAppLayout().then(function (a){
+                                    return a.layout.qStateNames.map(function (state){
                                           return {value : state, label : state}
                                     })
                                     /*
