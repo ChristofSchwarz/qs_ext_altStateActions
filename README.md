@@ -11,4 +11,6 @@ This extension gets the user up to 4 buttons which he/she will need to work with
  
 Labels and styles can be changed. 
 
-_Note_: the target state first gets cleared from all existing selections before syncing them from the source state
+*Note*: the target state first gets cleared from all existing selections before syncing them from the source state
+
+I can think of a future version, that allowes exceptions and copying selections only of specific fields between states, not always all. ...
