@@ -10,4 +10,5 @@ This extension gets the user up to 4 buttons which he/she will need to work with
  * A "Clear Alternate State" button
  
 Labels and styles can be changed. 
-Note: the target state first gets cleared from all existing selections before syncing them from the source state
+
+_Note_: the target state first gets cleared from all existing selections before syncing them from the source state
