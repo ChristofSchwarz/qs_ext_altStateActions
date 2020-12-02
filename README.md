@@ -5,7 +5,7 @@
 This extension gets the user up to 4 buttons which he/she will need to work with Alternate States in Qlik Sense
 
  * A "Copy Main State > Alternate State" button
- * A "Copy Alternate State < Main State" button
+ * A "Copy Alternate State > Main State" button
  * A "Clear Main State" button
  * A "Clear Alternate State" button
  
