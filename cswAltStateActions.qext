@@ -7,8 +7,9 @@
 	"author": "Christof Schwarz",
 	"homepage": "www.databridge.ch",
 	"keywords": "qlik-sense, visualization",
-	"license": "",
-	"repository": "",
+	"license": "MIT",
+	"repository": "https://github.com/ChristofSchwarz/qs_ext_altStateActions",
+	"preview": "databridgelogo.png",
 	"dependencies": {
 		"qlik-sense": ">=3.0.x"
 	}
