@@ -30,16 +30,7 @@ define(["jquery", "qlik"], function ($, qlik) {
 
     return {
 
-        initialProperties: {
-            /* qListObjectDef: {
-                 qShowAlternatives: true,
-                 qFrequencyMode: "V",
-                 qInitialDataFetch: [{
-                     qWidth: 2,
-                     qHeight: 50
-                 }]
-             } */
-        },
+        initialProperties: {},
         definition: {
 
             type: "items",
