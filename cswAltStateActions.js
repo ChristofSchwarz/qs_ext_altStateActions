@@ -16,7 +16,7 @@ define(["jquery", "qlik"], function ($, qlik) {
             //console.log(fromStateSel);
             fromStateSel.forEach(function (fieldDesc, i) {
                 console.log('Selection found in field ', fieldDesc);
-                var fieldName = fieldDesc.name;
+                var fieldName = fieldDesc.qField || fieldDesc.name;
                 var fieldObj = app.field(fieldName, toState);
                 fieldObj.clear();
                 var secretSauce = "[" + fieldName + "]=Aggr(Only({<[" + fieldName + "]=P([" + fromState + "]::[" + fieldName + "])>} [" + fieldName + "]), [" + fieldName + "])";
