@@ -1,6 +1,8 @@
 # Alternate State Actions
 
-(reworked for Qlik Sense September 2020)
+(reworked for Qlik Sense September 2020, Aug 2022)
+
+Article about this extension: https://www.linkedin.com/pulse/qlik-sense-copying-selections-once-from-state-christof-schwarz
 
 This extension gets the user up to 4 buttons which he/she will need to work with Alternate States in Qlik Sense
 
